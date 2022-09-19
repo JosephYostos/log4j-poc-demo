@@ -2,7 +2,7 @@
 # Get your own IP address
 SERVER_IP=`hostname -I | awk '{print $1}'`
 # This is the target dns
-REMOTE_IP="log4j-poc-control-plane"
+REMOTE_IP="192.168.39.129"
 # This is the target port serving the application
 REMOTE_PORT="30950"
 
